@@ -15,7 +15,59 @@
       "title": "Random Branch",
       "subtitle": "Generate random branch name",
       "description": "Generate a random branch name such as `shu/1nxh`.",
-      "mode": "no-view"
+      "mode": "no-view",
+      "preferences": [
+        {
+          "name": "branch-prefix",
+          "title": "Branch Prefix",
+          "description": "The prefix of the branch name.",
+          "type": "textfield",
+          "default": "shu",
+          "required": false
+        },
+        {
+          "name": "suffix-length",
+          "title": "Suffix Length",
+          "description": "The length of the random suffix.",
+          "type": "dropdown",
+          "default": "4",
+          "data": [
+            {
+              "value": "3",
+              "title": "3"
+            },
+            {
+              "value": "4",
+              "title": "4"
+            },
+            {
+              "value": "5",
+              "title": "5"
+            },
+            {
+              "value": "6",
+              "title": "6"
+            },
+            {
+              "value": "7",
+              "title": "7"
+            },
+            {
+              "value": "8",
+              "title": "8"
+            },
+            {
+              "value": "9",
+              "title": "9"
+            },
+            {
+              "value": "10",
+              "title": "10"
+            }
+          ],
+          "required": false
+        }
+      ]
     }
   ],
   "dependencies": {
