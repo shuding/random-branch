@@ -1,6 +1,6 @@
 # Random Branch
 
-A [Raycast](https://raycast.com) plugin to generate random GitHub branch names for Shu.
+A [Raycast](https://raycast.com) plugin to generate random GitHub branch names.
 
 ![Screenshot](screenshot.png)
 
