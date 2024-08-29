@@ -66,6 +66,15 @@
             }
           ],
           "required": false
+        },
+        {
+          "name": "include-git-checkout-b",
+          "title": "Include Git Checkout Command",
+          "label": "Include `git checkout -b` when copying",
+          "description": "When enabled, the branch name will be prefixed with `git checkout -b`.",
+          "type": "checkbox",
+          "default": false,
+          "required": false
         }
       ]
     }
